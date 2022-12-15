@@ -50,3 +50,4 @@ while(count < 10000)
     count = count + 1;
 
 }
+Console.Read();
