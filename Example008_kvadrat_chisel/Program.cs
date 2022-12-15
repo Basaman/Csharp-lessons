@@ -2,6 +2,6 @@
 string userInput = Console.ReadLine() ?? "";
 
 int number = int.Parse(userInput);
-int result = number * number;
+int result = (int)Math.Pow(number, 3);
 
 Console.WriteLine($"{number} -> {result}");
