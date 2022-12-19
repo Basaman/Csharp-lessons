@@ -8,10 +8,10 @@ int a2 = int.Parse(userInput2);
 
 if (a1 % a2 == 0)
 {
-    Console.WriteLine("кратно");
+    Console.WriteLine($"{a1},{a2} -> кратно");
 }
 else
 {
     int result = a1 % a2;
-    Console.WriteLine(result);
+    Console.WriteLine($"{a1},{a2} -> не кратно, остаток {result}");
 }
