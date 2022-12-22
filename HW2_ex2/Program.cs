@@ -6,15 +6,12 @@ string userInput = Console.ReadLine() ?? "";
 int num = int.Parse(userInput);
 
 if (num < 100 && num > -100) Console.WriteLine("Число не содержит третью цифру");
-if (num > 999 || num < -99)
+if (num > 99 || num < -99)
 {
-    while (num > 999)
+    while (num > 999 || num < -999)
     {
         num = num / 10;
     }
     num = num % 10;
     Console.WriteLine(num);
 }
-
-
-
