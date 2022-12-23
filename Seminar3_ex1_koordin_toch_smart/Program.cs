@@ -6,7 +6,7 @@ int X = 0, Y = 0;
 InitCoordinatesByUser(ref X, ref Y); //Вызов Метода с передачей параметров по ссылке (ref)
 PrintQuarterByCoords(X, Y); //Выов метода с передачей параметров по значению
 
-static void InitCoordinatesByUser(ref int X, ref int Y)
+static void InitCoordinatesByUser(ref int X, ref int Y) //static void метод возвращаемого значения.
 {
     try
     {
