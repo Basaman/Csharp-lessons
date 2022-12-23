@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("Введите целое число от 1 до 7: ");
-string userInput = Console.ReadLine();
+string userInput = Console.ReadLine() ?? "";
 
 int num = int.Parse(userInput);
 
